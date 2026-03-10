@@ -11,7 +11,7 @@ import logging
 from google.cloud import storage
 
 
-def re_token(event, context):
+def re_token(request):
     logging.warning("🔥 LAZADA FUNCTION STARTED 🔥")
 
     appkey = os.environ["APPKEY"]
