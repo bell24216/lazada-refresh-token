@@ -5,7 +5,9 @@ import time
 import logging
 from google.cloud import storage
 
+import functions_framework
 
+@functions_framework.http
 def re_token(request):
     logging.warning("🔥 LAZADA FUNCTION STARTED 🔥")
 

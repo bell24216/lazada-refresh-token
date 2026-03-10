@@ -1,4 +1,3 @@
 functions-framework
 google-cloud-storage
 requests
-lazop-sdk-python
