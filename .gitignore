@@ -1,0 +1,5 @@
+.env
+*.xlsx
+*.json
+__pycache__/
+*.pyc
